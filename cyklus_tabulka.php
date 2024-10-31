@@ -1,4 +1,16 @@
 <?php
+echo'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html>';
 /*
  * cyklus
  * 1. Vytvořte tabulku, která bude obsahovat tři sloupce a n řádků. Obsah tabulky bude tvořen obsahem pole $city. Obsah každé buňky bude ve tvaru Pořadové číslo. Stát - Hlavní město
@@ -37,6 +49,21 @@ $city = array(
 	"Austria" => "Vienna",
 	"Poland"=>"Warsaw"
 );
+
+
+
+
+foreach($city as $c){
+	
+	echo $c;
+	echo " ";
+}
+foreach(key($city) as $c){
+	
+	echo $c;
+	echo " ";
+}
+
 
 //reseni
 
